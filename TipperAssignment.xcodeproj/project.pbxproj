@@ -22,6 +22,7 @@
 		C646815518C3C30800228CD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C646813418C3C30800228CD2 /* UIKit.framework */; };
 		C646815D18C3C30800228CD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C646815B18C3C30800228CD2 /* InfoPlist.strings */; };
 		C646815F18C3C30800228CD2 /* TipperAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C646815E18C3C30800228CD2 /* TipperAssignmentTests.m */; };
+		C646817018C3C7B300228CD2 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = C646816F18C3C7B300228CD2 /* Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		C646815A18C3C30800228CD2 /* TipperAssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TipperAssignmentTests-Info.plist"; sourceTree = "<group>"; };
 		C646815C18C3C30800228CD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C646815E18C3C30800228CD2 /* TipperAssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipperAssignmentTests.m; sourceTree = "<group>"; };
+		C646816E18C3C7B300228CD2 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		C646816F18C3C7B300228CD2 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		C646812418C3C30800228CD2 = {
 			isa = PBXGroup;
 			children = (
+				C646816E18C3C7B300228CD2 /* Controller.h */,
+				C646816F18C3C7B300228CD2 /* Controller.m */,
 				C646813618C3C30800228CD2 /* TipperAssignment */,
 				C646815818C3C30800228CD2 /* TipperAssignmentTests */,
 				C646812F18C3C30800228CD2 /* Frameworks */,
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C646814A18C3C30800228CD2 /* ViewController.m in Sources */,
+				C646817018C3C7B300228CD2 /* Controller.m in Sources */,
 				C646814118C3C30800228CD2 /* AppDelegate.m in Sources */,
 				C646813D18C3C30800228CD2 /* main.m in Sources */,
 			);
