@@ -14,17 +14,17 @@
     IBOutlet UILabel *tipTenPercentField;
     IBOutlet UILabel *tipFifteenPercentField;
     IBOutlet UILabel *tipTwentyPercentField;
-    IBOutlet UILabel *tipCustomPercentField;
+    IBOutlet UILabel *customPercentLabel;
     IBOutlet UILabel *totalTenField;
     IBOutlet UILabel *totalFifteenField;
     IBOutlet UILabel *totalTwentyField;
     IBOutlet UILabel *totalCustomField;
-    IBOutlet UILabel *customPercentLabel;
+    IBOutlet UILabel *tipCustomPercentField;
     
     NSString *billTotal; // "Bill Total" field
 }
 
-- (IBAction)calculateTip:(id)sender;
-- (IBAction)updateCustom:(id)sender;
+- (IBAction)calculateTip:(UITextField*)sender;
+- (IBAction)updateCustom:(UISlider*)sender;
 
 @end
